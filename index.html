@@ -109,7 +109,7 @@
                         </ol>
                     </li>
                 </ul>
-            </article>
+            </article>   
             <aside>
                 <h2>Información práctica</h2>
                 <dl>
@@ -126,7 +126,7 @@
                     <dt>Recomendación:</dt>
                     <dd>Se aconseja reservar mesa los fines de semana</dd>
                 </dl>
-            </aside>
+            </aside>    
             <button id="abrir" type="button">Reservar mesa</button>  
             <dialog id="ventana">
                 <h3>Solicitud de reserva</h3>
@@ -137,12 +137,28 @@
                         <li>Se permiten mascotas dentro del local</li>
                     </ul>
                 <button id="cerrar" type="button">Cerrar</button>
-            </dialog>     
+            </dialog>
         </main>
         <script>
             const dialog = document.getElementById('ventana');
             document.getElementById('abrir').onclick = () => dialog.showModal();
             document.getElementById('cerrar').onclick = () => dialog.close();      
         </script>
+        <footer>
+            <address>
+                <p>
+                    Restaurante Sabores DAM<br>
+                    Calle Sabores, 42 – Oviedo
+                </p>
+                <p>
+                    Teléfono: <a href="tel:985123456">985 123 456</a>
+                </p>
+                <p>
+                    <a href="mailto:info@saboresdam.es">info@saboresdam.es</a><br>
+                    <a href="#https://www.saboresdam.es">www.saboresdam.es</a>
+                </p>
+                <p>&copy;2025 Jose Antonio Fernández Iglesias</p>
+            </address>
+        </footer>
     </body>
 </html>
